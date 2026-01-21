@@ -79,3 +79,6 @@ export const content = {
 
 - **Styling**: Global styles are in `app/globals.css`. Tailwind configuration is handled automatically.
 - **UI Components**: Shadcn UI components are in `components/ui`. You can customize them using standard Tailwind classes.
+
+## Notes to improve
+With more time, I would elevate the project from an MVP to a production-ready site by implementing React Hook Form with Zod for robust, type-safe validation and adding Playwright for end-to-end testing of the critical quote flow. Visually, I would enhance the premium feel using Framer Motion for animations and an interactive before/after slider to better showcase.
